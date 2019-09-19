@@ -20,3 +20,10 @@ EXAMPLE: (Replace "'" with "#")
 function plugins:{itemname}
 function plugins:{itemmeta} (IF NEEDED)
 function plugins:{itemdroprecipe} (IF NEEDED)
+
+If the plugin adds any custom recipes (When implemented), you will need to register them in the 'cybertweaks/data/custom/recipes/functions/crecipes.mcfunction'
+
+EXAMPLE: (Replace "'" with "#")
+
+'{itemname}
+function plugins:{itemrecipe}
